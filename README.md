@@ -17,7 +17,7 @@ or change the default value in the script
 
     if there is no gameobject with the script required and it's set to not create new one it throw exception , you can handle it differently if you want. 
 
-    This script will return the first occurance of gameobject so you will mainly use it with your main scripts or manager scripts.
+This script will return the first occurance of gameobject so you will mainly use it with your main scripts or manager scripts.
 But what if you want to find any script or another words you will define what scripts the service locator will look for.
 you can easily add a method that adds to the dictionary type and reference so you any script that you will need to find can at start at it self to the serivce locator .
 
