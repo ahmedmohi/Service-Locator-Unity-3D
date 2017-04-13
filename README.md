@@ -15,7 +15,7 @@ There's a couple of notes :
 LevelManager level =  ServiceLocator.GetService<LevelManager>(false); 
 or change the default value in the script
 
-    if there is no gameobject with script required and won't create new one it throw exception , you can handle it differently if you want. 
+    if there is no gameobject with the script required and it's set to not create new one it throw exception , you can handle it differently if you want. 
 
     This script will return the first occurance of gameobject so you will mainly use it with your main scripts or manager scripts.
 But what if you want to find any script or another words you will define what scripts the service locator will look for.
