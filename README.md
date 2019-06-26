@@ -21,6 +21,3 @@ This script will return the first occurance of gameobject so you will mainly use
 But what if you want to find any script or another words you will define what scripts the service locator will look for.
 you can easily add a method that adds to the dictionary type and reference so you any script that you will need to find can at start at it self to the serivce locator .
 
-
-For Info check this blogPost:
-http://2024studios.blogspot.com/2017/04/service-locator-design-pattern-for.html
